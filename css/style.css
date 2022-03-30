@@ -7,7 +7,6 @@
     padding: 0;
 }
 
-
 body {
     font-weight: 300;
     color:white;
@@ -23,11 +22,12 @@ body {
 .main{
     display:flex;
     width:100vw;
-    color: #fff;
 } 
+
 .container {
     display:flex;
     height:80vh;
+    flex-wrap: wrap;
 }
 
 .right-menu{
@@ -45,4 +45,8 @@ body {
 
 .menu {
     width: 100%;
+}
+
+.article {
+    flex-direction: row;
 }
