@@ -13,13 +13,13 @@ body {
     font-size: 20px;
 }
 
-.item{
+.item {
     background-color:gray;
     padding: 16px;
     border:1px solid rgb(255, 255, 255);
 }
 
-.main{
+.main {
     display:flex;
     width:100vw;
 } 
@@ -30,16 +30,16 @@ body {
     flex-wrap: wrap;
 }
 
-.right-menu{
+.right-menu {
     display:flex;
     min-width:40vw;
 }
 
-.item.header{
+.header {
     min-width:60vw;
 }
 
-.item.footer-content{
+.footer-content {
     height:20vh;
 }
 
