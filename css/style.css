@@ -1,0 +1,48 @@
+/*----------------
+    RESET
+-----------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-weight: 300;
+    color:white;
+    font-size: 20px;
+}
+
+.item{
+    background-color:gray;
+    padding: 16px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.main{
+    display:flex;
+    width:100vw;
+    color: #fff;
+} 
+.container {
+    display:flex;
+    height:80vh;
+}
+
+.right-menu{
+    display:flex;
+    min-width:40vw;
+}
+
+.item.header{
+    min-width:60vw;
+}
+
+.item.footer-content{
+    height:20vh;
+}
+
+.menu {
+    width: 100%;
+}
