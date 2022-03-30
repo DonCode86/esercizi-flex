@@ -28,6 +28,12 @@ body {
     border:1px solid rgb(255, 255, 255);
 }
 
+.item-3 {  
+    background-color: rgb(62, 204, 44);
+    padding: 16px;
+    border:1px solid rgb(255, 255, 255);
+}
+ 
 /*----------------
     LAYOUT-1
 -----------------*/
@@ -60,7 +66,6 @@ body {
 }
 
 .article {
-    flex-direction: row;
     flex-grow: 1;
 }
 
@@ -91,4 +96,42 @@ body {
 
 .footer-2 {
     min-height: 20vh;
+    margin-bottom: 30px;
+}
+
+/*----------------
+    LAYOUT-3
+-----------------*/
+.header-3 {
+    display: flex;
+}
+
+.header-left-3, .header-right-3 {
+    min-height: 40vh;
+}
+
+.header-left-3 {
+    flex-grow: 2;
+}
+
+.header-right-3 {
+    flex-grow: 1;
+}
+
+.main-3 {
+    display: flex;
+    width: 100vw;
+    min-height: 60vh;
+    flex-wrap: wrap;
+}
+
+.row-3 {
+    width: 40%;
+    flex-grow: 1;
+    
+}
+.menu-3 {
+    width: 50%;
+    min-height: 60vh;
+    display: flex;
 }
