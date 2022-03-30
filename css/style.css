@@ -121,17 +121,25 @@ body {
 .main-3 {
     display: flex;
     width: 100vw;
-    min-height: 60vh;
+}
+
+.row-3-container {
+    display: flex;
     flex-wrap: wrap;
+    width: 50vw;
+    height: 60vh;
 }
 
 .row-3 {
-    width: 40%;
     flex-grow: 1;
-    
+    width: 30vw;
 }
-.menu-3 {
-    width: 50%;
-    min-height: 60vh;
+
+.menu-3-container {
+    width: 50vw;
     display: flex;
+}
+
+.menu-3 {
+    flex-grow: 1;
 }
